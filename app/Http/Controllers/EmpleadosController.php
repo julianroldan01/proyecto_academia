@@ -14,8 +14,8 @@ class EmpleadosController extends Controller
      */
     public function index()
     {
-        $empleados;
-        return view('empleados.agregar'); 
+        $empleados=empleados::all();
+        return view('empleados.agregar',compact('empleados')); 
     }
 
     /**
@@ -36,7 +36,15 @@ class EmpleadosController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'usuario' => 'required',
+            'apellido' => 'required',
+            'contrasena' => 'required',
+            'correo' => 'required',
+            'img' => 'required'
+        ]);
+        empleados::create($request->all());
+        return redirect()->route('empleados.index');
     }
 
     /**
@@ -68,9 +76,11 @@ class EmpleadosController extends Controller
      * @param  \App\Models\empleados  $empleados
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, empleados $empleados)
+    public function update(Request $request,$id)
     {
-        //
+        $datosusuarios = $request->except(['_token','_method']);
+        empleados::where(['id'=>$id])->update($datosusuarios);
+        return back();
     }
 
     /**
@@ -79,8 +89,9 @@ class EmpleadosController extends Controller
      * @param  \App\Models\empleados  $empleados
      * @return \Illuminate\Http\Response
      */
-    public function destroy(empleados $empleados)
+    public function destroy($id)
     {
-        //
+        empleados::destroy($id);
+        return redirect()->route('empleados.index');
     }
 }

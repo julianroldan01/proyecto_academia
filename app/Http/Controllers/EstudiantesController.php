@@ -14,8 +14,8 @@ class EstudiantesController extends Controller
      */
     public function index()
     {
-        $empleados;
-        return view('estudiantes.agregar'); 
+        $estudiantes=estudiantes::all();
+        return view('estudiantes.agregar',compact('estudiantes')); 
     }
 
     /**
@@ -36,7 +36,16 @@ class EstudiantesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nombre' => 'required',
+            'identificacion' => 'required',
+            'apellido' => 'required',
+            'contrasena' => 'required',
+            'correo' => 'required',
+            'tel' => 'required'
+        ]);
+        estudiantes::create($request->all());
+        return redirect()->route('estudiantes.index');
     }
 
     /**
@@ -68,9 +77,11 @@ class EstudiantesController extends Controller
      * @param  \App\Models\estudiantes  $estudiantes
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, estudiantes $estudiantes)
+    public function update(Request $request, $id)
     {
-        //
+        $datoestu = $request->except(['_token','_method']);
+        estudiantes::where(['id'=>$id])->update($datoestu);
+        return back();
     }
 
     /**
@@ -79,8 +90,9 @@ class EstudiantesController extends Controller
      * @param  \App\Models\estudiantes  $estudiantes
      * @return \Illuminate\Http\Response
      */
-    public function destroy(estudiantes $estudiantes)
+    public function destroy($id)
     {
-        //
+        estudiantes::destroy($id);
+        return redirect()->route('estudiantes.index');
     }
 }

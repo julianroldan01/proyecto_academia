@@ -14,7 +14,13 @@ class CreateEstudiantesTable extends Migration
     public function up()
     {
         Schema::create('estudiantes', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->string(('nombre'));
+            $table->string(('identificacion'));
+            $table->string(('apellido'));
+            $table->string(('correo'));
+            $table->string(('contrasena'));
+            $table->string(('tel'));
             $table->timestamps();
         });
     }
