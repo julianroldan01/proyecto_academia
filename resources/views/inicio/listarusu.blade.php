@@ -57,7 +57,6 @@
             <p>de marketing para cualquier negocio o marca, ya que permiten atraer más</p>
             <p>visitas a tu web o negocio y fidelizar a tu clientela.</p>
 
-            <p>Vamos a ver los beneficios que aportan las redes a tu negocio.</p>
             <p>
             <p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5743523663537!2d-75.29061378554718!3d2.9379111978602235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b745dff21f3f3%3A0xe27deac038092326!2sAcademia%20de%20Belleza%20Fashion%20CEB!5e0!3m2!1ses!2sco!4v1636338576183!5m2!1ses!2sco" 
