@@ -11,6 +11,9 @@ class EmpleadosController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
+     * @author Julian Andres Roldan Dussan
+     * @since  11/10/2021
+     * retorna a la vista agregar de la carpeta empleados y compacta todos los datos del modelo
      */
     public function index()
     {
@@ -33,6 +36,8 @@ class EmpleadosController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+     * funcion para agregar los datos requeridos 
+     * y los redirecciona a la misma vista
      */
     public function store(Request $request)
     {
@@ -75,6 +80,8 @@ class EmpleadosController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\empleados  $empleados
      * @return \Illuminate\Http\Response
+     * funcion para editar los datos y retornarlo a la misma vista
+     * a excepcion de los input _token y _method
      */
     public function update(Request $request,$id)
     {
@@ -88,6 +95,7 @@ class EmpleadosController extends Controller
      *
      * @param  \App\Models\empleados  $empleados
      * @return \Illuminate\Http\Response
+     * funcion para borrar datos por medio del id
      */
     public function destroy($id)
     {

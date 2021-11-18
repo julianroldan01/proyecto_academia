@@ -1,0 +1,302 @@
+#Login {
+	position: relative;
+	width: 100%;
+	height: 1070px;
+	background: linear-gradient(180deg, rgba(182,0,107,1) 0%, rgba(39,1,23,1) 0%, rgba(243,4,145,1) 100%);
+	overflow: hidden;
+}
+#Login2 {
+	position: relative;
+	width: auto;
+	height: auto;
+	background: linear-gradient(180deg, rgba(182,0,107,1) 0%, rgba(39,1,23,1) 0%, rgba(243,4,145,1) 100%);
+	overflow: hidden;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Enmascarar_grupo_1 {
+	position: absolute;
+	width: 900px;
+	height: 970px;
+	left: -90px;
+	top: 103px;
+	overflow: visible;
+}
+
+#n_Mesa_de_trabajo_115x {
+	position: absolute;
+	width: 268px;
+	height: 105px;
+	left: 11px;
+	top: 0px;
+	overflow: visible;
+}
+
+#FASHION {
+	left: 114px;
+	top: 19px;
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Microsoft Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#CEB {
+	left: 181px;
+	top: 59px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Microsoft Sans Serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#Login_p {
+	position: absolute;
+	width: 470px;
+	height: 830px;
+	left: 1143px;
+	top: 269px;
+	overflow: visible;
+}
+#Usuario {
+	left: 0px;
+	top: 295px;
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 67px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Contrasea {
+	left: 0px;
+	top: 421px;
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 67px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#Contrasea input,
+#Usuario input{
+	/* margin-left: 350px;
+	margin-top: 50px; */
+	width: 450px;
+	height: 50px; 
+	border-radius: 100px;
+	background: rgba(110, 105, 105, 0.411);
+	border : none
+}
+#contrasea{
+	margin-left: 350px;
+	margin-top: 50px;
+	width: 250px;
+	height: 70px;
+	border-radius: 100px;
+	color: aliceblue;
+	font-size: 30px;
+	background: rgba(110, 105, 105, 0.411);
+}
+#btn .btn{
+	margin-left: 33px;
+	margin-top: 600px;
+	width: 250px;
+	height: 70px;
+	border-radius: 100px;
+	color: aliceblue;
+	font-size: 30px;
+	background: rgba(110, 105, 105, 0.411);
+
+}
+
+#Rectngulo_11 {
+	filter: blur(6px);
+	fill: rgba(70,70,71,0.4);
+}
+.Rectngulo_11 {
+	position: absolute;
+	overflow: visible;
+	width: 506px;
+	height: 139px;
+	left: 0px;
+	top: 279px;
+}
+#El_Arte_en_tus_Manos {
+	left: 46px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 357px;
+	height: 145px;
+	text-align: left;
+	font-family: Rage;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 60px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.01px;
+}
+#Rectngulo_12 {
+	filter: blur(6px);
+	fill: rgba(70,70,71,0.4);
+}
+.Rectngulo_12 {
+	position: absolute;
+	overflow: visible;
+	width: 506px;
+	height: 140px;
+	left: 0px;
+	top: 526px;
+}
+
+#n_ {
+	left: 260px;
+	top: 700px;
+	position: absolute;
+	overflow: visible;
+	width: 1px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index___admin_usuarios.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 49px;
+	color: rgba(255,255,255,1);
+}
+
+#Rectngulo_13 {
+	filter: blur(6px);
+	fill: rgba(70,70,71,0.4);
+}
+.Rectngulo_13 {
+	position: absolute;
+	overflow: visible;
+	width: 277px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+}
+#ENTER {
+	left: 50px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 142px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -0.5px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 49px;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.01px;
+}
+#myCarousel {
+	width: 640px; 
+	height: 360px; 
+   }
+#inicio {
+	left: 290px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	height: 47px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#empleados {
+	left: 490px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	height: 47px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#estudiantes {
+	left: 790px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 132px;
+	height: 47px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#img {
+	position: relative;
+	width: 368px;
+	height: 605px;
+	top: 0px;
+	overflow: visible;
+}
+#img2 {
+	position: absolute;
+	top: 2610px;
+	left: 1390px;
+	overflow: visible;
+}
+#img3 {
+	position: absolute;
+	top: 2610px;
+	left: 1500px;
+	overflow: visible;
+}
+#img4 {
+	position: absolute;
+	top: 2610px;
+	left: 1612px;
+	overflow: visible;
+}
+#white {
+	color: rgba(255,255,255,1);
+}
+
+

@@ -1,7 +1,7 @@
-<div id="Login2">
-@extends('partials.layaout')
+<div id="login2">
+    @extends('layouts.layaout')
 
-@section('content')
+    @section('content')
 
     <p>
     <p>
@@ -29,8 +29,9 @@
     <p>
     <p>
         <center>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/MtYIlwn_9tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="900" height="415" src="https://www.youtube.com/embed/MtYIlwn_9tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
+        <p></p>
         <center>
             <span style="color: white;">
                 <p>
@@ -56,29 +57,40 @@
             <p>visitas a tu web o negocio y fidelizar a tu clientela.</p>
 
             <p>Vamos a ver los beneficios que aportan las redes a tu negocio.</p>
-            <p></p>
+            <p>
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5743523663537!2d-75.29061378554718!3d2.9379111978602235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b745dff21f3f3%3A0xe27deac038092326!2sAcademia%20de%20Belleza%20Fashion%20CEB!5e0!3m2!1ses!2sco!4v1636338576183!5m2!1ses!2sco" 
+                    width="2025" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </p>
             <hr>
             <p></p>
         </h3>
         </center>
-    </span>
-    <span style="color: #D0D3D4;">
 
-        <h5>
-            <p> Somos la ACADEMIA FRANCESA DE BELLEZA, líderes en formación en belleza integral. Nuestra amplia trayectoria nos posiciona en el primer lugar, garantizando a los estudiantes calidad y excelencia.</p>
-            <p> LUNES A VIERNES:</p>
-            <p> 7 AM A 9 PM (4 Jornadas)</p>
-            <p> SÁBADO: 8 AM a 2 PM</p>
-            <p> DOMINGOS Y FESTIVOS: Cerrado</p>
-            <p> NUESTRAS ÚNICAS SEDES:</p>
-            <p> Teusaquillo, Santamaría, Villas y Kennedy</p>
-            <p> E-MAIL:</p>
-            <p> info@academiafrancesadebelleza.co</p>
-            <p> PBX: +57 (1) 285 6437 / 223 3136 / 493 4979 / 314 480 4949</p>
-        </h5>
     </span>
-    <img id="img2" src="public/face.png" srcset="face.png 1x">
-    <img id="img3" src="public/what.png" srcset="what.png 1x">
-    <img id="img4" src="public/insta.png" srcset="insta.png 1x">
+            <h5>
+            <span style="color: #D0D3D4;">
+                <p> Somos una ACADEMIA COLOMBIANA DE BELLEZA, líderes en formación en belleza integral. Nuestra amplia trayectoria nos posiciona en el primer lugar, garantizando a los estudiantes calidad y excelencia.</p>
+                <p> LUNES A VIERNES: 7 AM A 9 PM (4 Jornadas)</p>
+                <p> SÁBADO: 8 AM a 2 PM</p>
+                <p> DOMINGOS Y FESTIVOS: Cerrado</p>
+                <p> NUESTRAS ÚNICAS SEDES: Teusaquillo, Santamaría, Villas y Kennedy</p>
+                <p> E-MAIL: info@academiafrancesadebelleza.co</p>
+                <p> PBX: +57 (1) 285 6437 / 223 3136 / 493 4979 / 314 480 4949</p>
+            </span>
+            </h5>
+        <div class="row justify-content-end">
+        <div class="col-1">   
+        <img src="public/face.png" srcset="face.png 1x" width="100px" height="90px" id="img2">
+        </div>
+        <div class="col-1">
+        <img src="public/what.png" srcset="what.png 1x" width="100px" height="90px" id="img3">
+        </div>
+        <div class="col-1">
+        <img src="public/insta.png" srcset="insta.png 1x" width="100px" height="90px" id="img4">
+        </div>
+        </div>
+    
+
 </div>
 @endsection

@@ -1,5 +1,5 @@
-<div id="Login">
-    @extends('partials.layaout')
+<div id="login">
+    @extends('layouts.layaout')
 
     @section('content')
 
@@ -53,8 +53,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-7">
-                <table class="table table-dark table-striped">
-                    <thead>
+                <table class="table" id="table" style="color: #D0D3D4;">
+                    <thead class="table-dark">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">nombre</th>

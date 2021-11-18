@@ -11,6 +11,10 @@ class EstudiantesController extends Controller
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
+     * @author Julian Andres Roldan Dussan
+     * @since  11/10/2021
+     * retorna a la vista agregar de la carpeta estudiantes 
+     * y compacta todos los datos del modelo estudiantes
      */
     public function index()
     {
@@ -33,6 +37,8 @@ class EstudiantesController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
+     * funcion para agregar los datos requeridos 
+     * y los redirecciona a la misma vista
      */
     public function store(Request $request)
     {
@@ -76,6 +82,8 @@ class EstudiantesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\estudiantes  $estudiantes
      * @return \Illuminate\Http\Response
+     * funcion para editar los datos y retornarlo a la misma vista
+     * a excepcion de los input _token y _method
      */
     public function update(Request $request, $id)
     {
@@ -89,6 +97,8 @@ class EstudiantesController extends Controller
      *
      * @param  \App\Models\estudiantes  $estudiantes
      * @return \Illuminate\Http\Response
+     * funcion para borrar datos por medio del id
+     * y retornar a la misma vista
      */
     public function destroy($id)
     {
